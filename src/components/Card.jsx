@@ -2,7 +2,7 @@
 import { motion } from "framer-motion"
 
 function Card({data, refForConstraint}) {
-  return <motion.div drag dragConstraints={refForConstraint} dragElastic={0.2}  whileDrag={{scale: 1.1}} className="w-[260px] bg-zinc-800/90 rounded-[30px] flex-shrink-0 h-[44%]">
+  return <motion.div drag dragConstraints={refForConstraint} dragElastic={0.2} dragTransition={{ bounceStiffness: 100, bounceDamping: 30 }}  whileDrag={{scale: 1.1}} className="w-[260px] bg-zinc-800/90 rounded-[30px] flex-shrink-0 h-[44%]">
     <div className="mb-4 relative overflow-hidden text-gray-700 bg-transparent rounded-t-[30px] shadow-none bg-clip-border">
     <img
     draggable="false"
