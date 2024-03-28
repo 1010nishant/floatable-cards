@@ -1,4 +1,4 @@
-import BgVideo from '../assets/bg-black-vid.webm';
+import BgVideo from '../assets/bg-white-vid.webm';
 
 const Background = () => {
   return <div className='relative w-full h-full'>
