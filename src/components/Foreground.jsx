@@ -5,7 +5,7 @@ function Foreground() {
     const ref = useRef(null)
     const data = [
         {
-            title: 'Apple Watch Series 7 GPS, Aluminium Case',
+            title: 'Apple Watch Series 7, Aluminium Case',
             price: '$399',
             img: 'https://cdn.pixabay.com/photo/2015/05/07/13/43/watch-756487_640.jpg',
         },
